@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        width: 90%;
+        //height: 900px;
+        border: 1px solid orange;
+        padding: 20px 10px;
+        gap: 10px;
+        margin: 10px;
+        .title {
+            display: flex;
+            align-self: center;
+            color: orange;
+            font-size: 1.4em;
+        }
+        .description {
+            display: flex;
+            align-self: center;
+            font-size: 1.1em;
+            width: 70%;
+        }
+    }
+}
