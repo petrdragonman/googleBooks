@@ -2,16 +2,16 @@ import { useEffect, useState } from "react";
 import { getBooks } from "../services/bookServices";
 import BookList from "../components/BookList/BookList";
 
-const BookLoader = ({searchTerm}) => {
+const BookLoader = (searchTerm) => {
     const [bookData, setBookData] = useState(null);
     const [error, setError] = useState(null);
     const [fetchStatus, setFetchStatus] = useState('PENDING');
 
-    console.log("reloading for a searchTerm: ", searchTerm);
+    console.log("searchTerm - BookLoader: ", searchTerm);
     const fetchBook = () => {
-        console.log('loading with new searchTerm: ', searchTerm);
+        console.log('searchTerm - BookLoader -> fetchBook: ', searchTerm);
         setFetchStatus('LOADING');
-        getBooks({searchTerm})
+        getBooks(searchTerm)
         .then((data) => {
             console.log(data);
             setFetchStatus('SUCCESS');
@@ -26,7 +26,7 @@ const BookLoader = ({searchTerm}) => {
 
     useEffect(() => {
         fetchBook();
-    }, []);
+    }, [searchTerm]);
 
     return (
         <>
