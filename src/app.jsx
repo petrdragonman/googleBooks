@@ -1,19 +1,23 @@
+import { useState } from 'preact/hooks'
 import './app.scss'
 import Heading from './components/Heading/Heading'
 import SearchForm from './components/SearchForm/SearchForm'
 import BookLoader from './container/BookLoader'
-import { getBooks } from './services/bookServices'
 
 export function App() {
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const onFormSubmit = (data) => {
+  const onFormSubmit = async (data) => {
     console.log('Form submitted', data);
+    setSearchTerm(data);
   };
 
   return (
     <>
       <Heading />
       <SearchForm onFormSubmit={onFormSubmit} />
+      {/* { searchTerm && <p>{searchTerm}</p>} */}
+      {/* { searchTerm !== null && searchTerm !== '' && <BookLoader searchTerm={searchTerm} /> } */}
     </>
   )
 }
@@ -29,3 +33,8 @@ export function App() {
 	•	The grid should be responsive on different screen sizes
 
  */
+
+
+  /**
+   * https://console.cloud.google.com/apis/api/books.googleapis.com/metrics?project=searchengine-447712
+   */
