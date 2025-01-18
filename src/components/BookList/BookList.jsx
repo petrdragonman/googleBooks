@@ -1,10 +1,10 @@
 import BookCard from "../BookCard/BookCard"
 
-const BookList = ({bookData}) => {
+const BookList = ({booksData, setIsModal, setBookData}) => {
     return (
         <>
-            {bookData.map((book) => (
-                <BookCard key={book.id} book={book} />
+            {booksData.map((book) => (
+                <BookCard key={book.id} book={book} setIsModal={setIsModal} setBookData={setBookData} />
             ))}
         </>
     );

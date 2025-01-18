@@ -2,17 +2,22 @@ import { useEffect, useState } from "react";
 import { getBooks } from "../services/bookServices";
 import BookList from "../components/BookList/BookList";
 
-const BookLoader = (searchTerm) => {
-    const [bookData, setBookData] = useState(null);
+const BookLoader = ({searchTerm, setIsModal, setBookData}) => {
+    const [booksData, setBooksData] = useState(null);
     const [error, setError] = useState(null);
     const [fetchStatus, setFetchStatus] = useState('PENDING');
+    // console.log(searchTerm);
+    // console.log(typeof searchTerm);
+    // const term = String(searchTerm);
+    // console.log(term);
+    // console.log(typeof term);
 
     const fetchBook = () => {
         setFetchStatus('LOADING');
-        getBooks(searchTerm)
+        getBooks({searchTerm})
         .then((data) => {
             setFetchStatus('SUCCESS');
-            setBookData(data);
+            setBooksData(data);
         })
         .catch((e) => {
             setFetchStatus('FAILURE');
@@ -29,7 +34,7 @@ const BookLoader = (searchTerm) => {
             {fetchStatus === 'LOADING' && <p>Loading ....</p>}
             {fetchStatus === 'FAILURE' && <p>{error.message}</p>}
             {fetchStatus === 'SUCCESS' && (
-                <BookList bookData={bookData}/>
+                <BookList booksData={booksData} setIsModal={setIsModal} setBookData={setBookData} />
             )}
         </>
     );
