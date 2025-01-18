@@ -7,7 +7,6 @@ const BookLoader = (searchTerm) => {
     const [error, setError] = useState(null);
     const [fetchStatus, setFetchStatus] = useState('PENDING');
 
-    console.log("searchTerm - BookLoader: ", searchTerm);
     const fetchBook = () => {
         setFetchStatus('LOADING');
         getBooks(searchTerm)

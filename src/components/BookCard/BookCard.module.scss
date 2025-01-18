@@ -12,21 +12,28 @@
         align-self: center;
         width: 90%;
         border: 1px solid orange;
+        border-radius: 6px;
         padding: 20px 10px;
         gap: 10px;
         margin: 10px;
         .title {
             display: flex;
+            flex-direction: column;
             align-self: center;
             color: orange;
             font-size: 1.4em;
         }
-        .author {
+        .authors {
             display: flex;
+            flex-direction: column;
             align-self: center;
             color: orange;
-            font-size: 1.2em;
+            font-size: 1em;
+            .author {
+                display: flex;
+            }
         }
+        
         .description {
             font-size: 1em;
             width: 80%;
