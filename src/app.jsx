@@ -3,23 +3,14 @@ import './app.scss'
 import Heading from './components/Heading/Heading'
 import SearchForm from './components/SearchForm/SearchForm'
 import BookLoader from './container/BookLoader'
-import { getBooks } from './services/bookServices'
 
 export function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [bookData, setBookData] = useState(null);
-
-  // const onFormSubmit = async (data) => { // removed async
-  //   console.log('Form submitted', data);
-  // };
-  console.log("in app: ", searchTerm);
 
   return (
     <>
       <Heading />
-      <SearchForm setBookData={setBookData} setSearchTerm={setSearchTerm} />
-      {/* <SearchForm onFormSubmit={onFormSubmit} /> */}
-      {/* { searchTerm && <p>{searchTerm}</p>} */}
+      <SearchForm setSearchTerm={setSearchTerm} />
       { searchTerm !== null && searchTerm !== '' && <BookLoader searchTerm={searchTerm} /> }
     </>
   )

@@ -9,16 +9,13 @@ const BookLoader = (searchTerm) => {
 
     console.log("searchTerm - BookLoader: ", searchTerm);
     const fetchBook = () => {
-        console.log('searchTerm - BookLoader -> fetchBook: ', searchTerm);
         setFetchStatus('LOADING');
         getBooks(searchTerm)
         .then((data) => {
-            console.log(data);
             setFetchStatus('SUCCESS');
             setBookData(data);
         })
         .catch((e) => {
-            console.log(e);
             setFetchStatus('FAILURE');
             setError(e.message);
         });
@@ -40,5 +37,3 @@ const BookLoader = (searchTerm) => {
 };
 
 export default BookLoader;
-
-// <UserCard userData={userData} onReloadClick={fetchUser} />
