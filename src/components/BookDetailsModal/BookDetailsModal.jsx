@@ -1,12 +1,9 @@
-import classes from "./BookCard.module.scss";
-import Button from "../Button/Button";
+import classes from "./BookDetailsModal.module.scss";
 
-const BookCard = ({ book, setIsModal, setBookData }) => {
-  const handleOnClick = () => {
-    setBookData(book);
-    setIsModal(true);
-  };
-
+const BookDetailsModal = ({ setIsModal, book}) => {
+    const handleClick = () => {
+        setIsModal(false);
+    }
   return (
     <article className={classes.wrapper}>
         <section className={classes.card}>
@@ -16,22 +13,18 @@ const BookCard = ({ book, setIsModal, setBookData }) => {
             </section>
             {book.image && <img src={book.image.thumbnail} alt="book image" />}
             <span className={classes.description}>{book.description}</span>
-            <Button className={classes.button} onClick={handleOnClick} >
-              more details
-            </Button>
+            <button onClick={handleClick}>close</button>
         </section>
     </article> 
   );
 };
 
-export default BookCard;
+export default BookDetailsModal;
+
 
 /**
- * return {
-      id,  
-      title,
-      description,
-      authors,
-      image,
-    };
+ * <article className={classes.wrapper}>
+      <p className={classes.title}>This is a modal</p>
+      <button onClick={handleClick}>close</button>
+    </article>
  */
