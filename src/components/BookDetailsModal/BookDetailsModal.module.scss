@@ -79,6 +79,16 @@
           display: flex;
         }
       }
+      .extras {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        gap: 12px;
+        .item {
+          display: flex;
+        }
+      }
       .description {
         font-size: 1em;
         width: 80%;
