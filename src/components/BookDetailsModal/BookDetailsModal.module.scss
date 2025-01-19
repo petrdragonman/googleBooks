@@ -1,71 +1,98 @@
+@use "../../SCSS/partials/media-query" as q;
+
 .wrapper {
-    font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
-    left: 0;
-    top: 5%;
-    width: 100%;
-    height: 90%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .modal {
     background-color: rgba(94, 93, 92, 0.96);
-    
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 10px;
+    @include q.large-tablet {
+        background-color: rgba(94, 93, 92, 0.96);
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        border-radius: 10px;
+    }
+    @include q.laptop {
+        background-color: rgba(94, 93, 92, 0.96);
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        border-radius: 10px;
+    }
+    @include q.desktop {
+        background-color: rgba(94, 93, 92, 0.96);
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        border-radius: 10px;
+    }
+
     .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border: 1px solid white;
+      border-radius: 6px;
+      padding: 20px 10px;
+      gap: 10px;
+      margin: 10px;
+      .close {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: flex-end;
+        padding-right: 12px;
+        font-size: 1.6em;
+        color: white;
+      }
+      .title {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         align-self: center;
-        width: 90%;
-        min-height: 90%;
-        border: 1px solid white;
-        border-radius: 6px;
-        padding: 20px 10px;
-        gap: 10px;
-        margin: 10px;
-        .close {
-            position: fixed;
-            top: 8%;
-            right: 6%;
-            display: flex;
-            justify-content: flex-end;
-            font-size: 2em;
-            color: white;
+        color: white;
+        font-size: 1.4em;
+      }
+      .authors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        color: white;
+        font-size: 1em;
+        .author {
+          display: flex;
         }
-        .title {
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            color: white;
-            font-size: 1.4em;
-        }
-        .authors {
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            color: white;
-            font-size: 1em;
-            .author {
-                display: flex;
-            }
-        }
-        .description {
-            font-size: 1em;
-            width: 80%;
-            text-align: justify;
-            font-size: 1.2em;
-            color: white;
-            // display: -webkit-box;
-            // -webkit-box-orient: vertical;
-            // -webkit-line-clamp: 10;
-            // overflow: hidden;
-        }
-        .image {
-            scale: 3%;
-        }
+      }
+      .description {
+        font-size: 1em;
+        width: 80%;
+        text-align: justify;
+        font-size: 1.2em;
+        color: white;
+        // display: -webkit-box;
+        // -webkit-box-orient: vertical;
+        // -webkit-line-clamp: 10;
+        // overflow: hidden;
+      }
+      .image {
+        scale: 3%;
+      }
     }
+  } 
 }
