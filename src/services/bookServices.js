@@ -1,10 +1,12 @@
 import cleanUpData from "./cleanUpData";
+import APIKEY from '../secret/secret.js';
 
 export const getBooks = async ({searchTerm}) => {
     
-    const APIKey = 'AIzaSyBPrRwFeAPbma8oXMoeFzQS0-wS26mBTnw';
+    //const APIKEY = 'AIzaSyBPrRwFeAPbma8oXMoeFzQS0-wS26mBTnw';
+    console.log(APIKEY);
     const baseUrl = 'https://www.googleapis.com/books/v1/volumes?q=';
-    const url = baseUrl+searchTerm+"&key="+APIKey;
+    const url = baseUrl+searchTerm+"&key="+APIKEY;
     const response = await fetch(url);
     if (!response.ok) {
         throw new Error('Failed to fetch book.');
