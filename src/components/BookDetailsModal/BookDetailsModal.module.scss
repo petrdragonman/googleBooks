@@ -1,4 +1,5 @@
 @use "../../SCSS/partials/media-query" as q;
+@use '../../SCSS/partials/colors' as c;
 
 .wrapper {
   font-family: Arial, Helvetica, sans-serif;
@@ -15,27 +16,27 @@
   gap: 20px;
 
   .modal {
-    background-color: rgba(94, 93, 92, 0.96);
+    background-color: c.$modal-bkgrd;
     display: flex;
     justify-content: center;
     width: 90%;
     border-radius: 10px;
     @include q.large-tablet {
-        background-color: rgba(94, 93, 92, 0.96);
+        background-color: c.$modal-bkgrd;
         display: flex;
         justify-content: center;
         width: 80%;
         border-radius: 10px;
     }
     @include q.laptop {
-        background-color: rgba(94, 93, 92, 0.96);
+        background-color: c.$modal-bkgrd;
         display: flex;
         justify-content: center;
         width: 80%;
         border-radius: 10px;
     }
     @include q.desktop {
-        background-color: rgba(94, 93, 92, 0.96);
+        background-color: c.$modal-bkgrd;
         display: flex;
         justify-content: center;
         width: 60%;
@@ -60,20 +61,20 @@
         justify-content: flex-end;
         padding-right: 12px;
         font-size: 1.6em;
-        color: white;
+        color: c.$text-primary-modal;
       }
       .title {
         display: flex;
         flex-direction: column;
         align-self: center;
-        color: white;
+        color: c.$text-primary-modal;
         font-size: 1.4em;
       }
       .authors {
         display: flex;
         flex-direction: column;
         align-self: center;
-        color: white;
+        color: c.$text-primary-modal;
         font-size: 1em;
         .author {
           display: flex;
@@ -83,7 +84,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        color: white;
+        color: c.$text-primary-modal;
         gap: 12px;
         .item {
           display: flex;
@@ -94,11 +95,7 @@
         width: 80%;
         text-align: justify;
         font-size: 1.2em;
-        color: white;
-        // display: -webkit-box;
-        // -webkit-box-orient: vertical;
-        // -webkit-line-clamp: 10;
-        // overflow: hidden;
+        color: c.$text-primary-modal;
       }
       .image {
         scale: 3%;
