@@ -1,0 +1,34 @@
+@use '../../SCSS/partials/media-query' as q;
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.searchText {
+    display: flex;
+    width: 70%;
+    height: 26px;
+    border: 1px solid #FB9324;
+    border-radius: 4px;
+    @include q.desktop {
+        display: flex;
+        width: 50%;
+        height: 26px;
+        border: 1px solid #FB9324;
+        border-radius: 4px;
+    }
+}
+
+.searchImg {
+    width: 25px;
+}

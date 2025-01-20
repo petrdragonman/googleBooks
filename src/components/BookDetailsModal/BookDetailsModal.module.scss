@@ -1,0 +1,105 @@
+@use "../../SCSS/partials/media-query" as q;
+@use '../../SCSS/partials/colors' as c;
+
+.wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .modal {
+    background-color: c.$modal-bkgrd;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 10px;
+    @include q.large-tablet {
+        background-color: c.$modal-bkgrd;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        border-radius: 10px;
+    }
+    @include q.laptop {
+        background-color: c.$modal-bkgrd;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        border-radius: 10px;
+    }
+    @include q.desktop {
+        background-color: c.$modal-bkgrd;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        border-radius: 10px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border: 1px solid white;
+      border-radius: 6px;
+      padding: 20px 10px;
+      gap: 10px;
+      margin: 10px;
+      .close {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: flex-end;
+        padding-right: 12px;
+        font-size: 1.6em;
+        color: c.$text-primary-modal;
+      }
+      .title {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        color: c.$text-primary-modal;
+        font-size: 1.4em;
+      }
+      .authors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        color: c.$text-primary-modal;
+        font-size: 1em;
+        .author {
+          display: flex;
+        }
+      }
+      .extras {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: c.$text-primary-modal;
+        gap: 12px;
+        .item {
+          display: flex;
+        }
+      }
+      .description {
+        font-size: 1em;
+        width: 80%;
+        text-align: justify;
+        font-size: 1.2em;
+        color: c.$text-primary-modal;
+      }
+      .image {
+        scale: 3%;
+      }
+    }
+  } 
+}

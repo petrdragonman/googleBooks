@@ -1,0 +1,833 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 2593,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "Y7XWEAAAQBAJ",
+        "etag": "52HHvvvvm1Q",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Y7XWEAAAQBAJ",
+        "volumeInfo": {
+          "title": "The Cat Encyclopedia",
+          "subtitle": "The Definitive Visual Guide",
+          "authors": [
+            "DK"
+          ],
+          "publisher": "Penguin",
+          "publishedDate": "2024-03-12",
+          "description": "Are you a feline fanatic? Could you tell the difference between a Housecat and an Ojos Azules? Do you want to know how to keep your kitty happy and healthy? The Cat Encyclopedia is a comprehensive cat compendium that has all the facts about cats and kittens. It's packed with beautifully photographed profiles of different breeds from the Maine Coon to the Khao Manee and includes information on caring for your own cat. This book also offers information on the science and history of house cats. Find out how cats were domesticated and developed into separate breeds, and see their prominence in art, literature, and superstition. A chapter on feline biology focuses on the anatomy of cats - including the nervous system, digestion, and muscles - and also features details on cat senses and coat patterns. With comprehensive help on cat care - from preparing for your cat's arrival and essential equipment to healthcare and training - The Cat Encyclopedia is the perfect guide for cat lovers.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780593843253"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0593843258"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 322,
+          "printType": "BOOK",
+          "categories": [
+            "Pets"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.3.3.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Y7XWEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Y7XWEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=Y7XWEAAAQBAJ&dq=cat&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.com.au/books?id=Y7XWEAAAQBAJ&dq=cat&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Cat_Encyclopedia.html?hl=&id=Y7XWEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Y7XWEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "It&#39;s packed with beautifully photographed profiles of different breeds from the Maine Coon to the Khao Manee and includes information on caring for your own cat. This book also offers information on the science and history of house cats."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "czAXDAAAQBAJ",
+        "etag": "1dmWmGoem/s",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/czAXDAAAQBAJ",
+        "volumeInfo": {
+          "title": "They All Saw a Cat",
+          "authors": [
+            "Brendan Wenzel"
+          ],
+          "publisher": "Chronicle Books",
+          "publishedDate": "2016-08-30",
+          "description": "They All Saw A Cat — New York Times bestseller and 2017 Caldecott Medal and Honor Book The cat walked through the world, with its whiskers, ears, and paws . . . In this glorious celebration of observation, curiosity, and imagination, Brendan Wenzel shows us the many lives of one cat, and how perspective shapes what we see. When you see a cat, what do you see? If you and your child liked The Girl Who Drank the Moon, Finding Winnie, and Radiant Child — you'll love They All Saw A Cat \"An ingenious idea, gorgeously realized.\" —Shelf Awareness, starred review \"Both simple and ingenious in concept, Wenzel's book feels like a game changer.\" —The Huffington Post",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781452150482"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1452150486"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 45,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Fiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.3.2.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=czAXDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=czAXDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=czAXDAAAQBAJ&printsec=frontcover&dq=cat&hl=&cd=2&source=gbs_api",
+          "infoLink": "http://books.google.com.au/books?id=czAXDAAAQBAJ&dq=cat&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/They_All_Saw_a_Cat.html?hl=&id=czAXDAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/They_All_Saw_a_Cat-sample-pdf.acsm?id=czAXDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=czAXDAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "They All Saw A Cat — New York Times bestseller and 2017 Caldecott Medal and Honor Book The cat walked through the world, with its whiskers, ears, and paws ."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "0dibAQAAQBAJ",
+        "etag": "ba6vMF4rLsg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0dibAQAAQBAJ",
+        "volumeInfo": {
+          "title": "I Am Pusheen the Cat",
+          "authors": [
+            "Claire Belton"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2013-10-29",
+          "description": "This collection of kitty comics featuring the chubby, tubby tabby who has taken the Internet by storm will fill you in on all the basics.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781476747019"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1476747016"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 192,
+          "printType": "BOOK",
+          "categories": [
+            "Humor"
+          ],
+          "averageRating": 5,
+          "ratingsCount": 3,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.8.3.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=0dibAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=0dibAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=0dibAQAAQBAJ&printsec=frontcover&dq=cat&hl=&cd=3&source=gbs_api",
+          "infoLink": "http://books.google.com.au/books?id=0dibAQAAQBAJ&dq=cat&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/I_Am_Pusheen_the_Cat.html?hl=&id=0dibAQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=0dibAQAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This collection of kitty comics featuring the chubby, tubby tabby who has taken the Internet by storm will fill you in on all the basics."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "_XbIDwAAQBAJ",
+        "etag": "jkbqMfONkZY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/_XbIDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Old Possum's Book of Practical Cats",
+          "authors": [
+            "T. S. Eliot"
+          ],
+          "publisher": "Faber & Faber",
+          "publishedDate": "2021-08-31",
+          "description": "The naming of Cats is a difficult matter,It isn't just one of your holiday games;You may think at first I'm as mad as a hatterWhen I tell you, a cat must have THREE DIFFERENT NAMES.So begins one of the best-known poetry collections of all time. The practical cats need no introduction, but this stunning new full-colour version, illustrated by Júlia Sardà, is the perfect companion to Old Toffer's Dogs. Whether you are a cat or a dog person, you will be enchanted by Júlia's highly original interpretation.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780571346141"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0571346146"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 98,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Nonfiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.4.2.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=_XbIDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=_XbIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=_XbIDwAAQBAJ&printsec=frontcover&dq=cat&hl=&cd=4&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=_XbIDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_XbIDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 11.99,
+            "currencyCode": "AUD"
+          },
+          "retailPrice": {
+            "amount": 11.99,
+            "currencyCode": "AUD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=_XbIDwAAQBAJ&rdid=book-_XbIDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 11990000,
+                "currencyCode": "AUD"
+              },
+              "retailPrice": {
+                "amountInMicros": 11990000,
+                "currencyCode": "AUD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/Old_Possum_s_Book_of_Practical_Cats-sample-epub.acsm?id=_XbIDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/Old_Possum_s_Book_of_Practical_Cats-sample-pdf.acsm?id=_XbIDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=_XbIDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The naming of Cats is a difficult matter, It isn&#39;t just one of your holiday games; You may think at first I&#39;m as mad as a hatter When I tell you, a cat must have THREE DIFFERENT NAMES."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "SxguEQAAQBAJ",
+        "etag": "yIo05zPCEbM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/SxguEQAAQBAJ",
+        "volumeInfo": {
+          "title": "The Cat Who Saved Books",
+          "authors": [
+            "Sosuke Natsukawa"
+          ],
+          "publisher": "Picador",
+          "publishedDate": "2021-09-14",
+          "description": "Grandpa used to say it all the time: books have tremendous power. But what is that power really? Natsuki Books was a tiny second-hand bookshop on the edge of town. Inside, towering shelves reached the ceiling, every one crammed full of wonderful books. Rintaro Natsuki loved this space that his grandfather had created. He spent many happy hours there, reading whatever he liked. It was the perfect refuge for a boy who tended to be something of a recluse. After the death of his grandfather, Rintaro is devastated and alone. It seems he will have to close the shop. Then, a talking tabby cat called Tiger appears and asks Rintaro for help. The cat needs a book lover to join him on a mission. This odd couple will go on three magical adventures to save books from people who have imprisoned, mistreated and betrayed them. Finally, there is one last rescue that Rintaro must attempt alone . . . The Cat Who Saved Books is a heart-warming story about finding courage, caring for others – and the tremendous power of books. Sosuke Natsukawa's international bestseller, translated from Japanese by Louise Heal Kawai, is a story for those for whom books are so much more than words on paper.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781761685927"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1761685929"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 143,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.2.2.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=SxguEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=SxguEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=SxguEQAAQBAJ&printsec=frontcover&dq=cat&hl=&cd=5&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=SxguEQAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SxguEQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 9.99,
+            "currencyCode": "AUD"
+          },
+          "retailPrice": {
+            "amount": 9.99,
+            "currencyCode": "AUD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=SxguEQAAQBAJ&rdid=book-SxguEQAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 9990000,
+                "currencyCode": "AUD"
+              },
+              "retailPrice": {
+                "amountInMicros": 9990000,
+                "currencyCode": "AUD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/The_Cat_Who_Saved_Books-sample-epub.acsm?id=SxguEQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/The_Cat_Who_Saved_Books-sample-pdf.acsm?id=SxguEQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=SxguEQAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Grandpa used to say it all the time: books have tremendous power."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "YIbCDwAAQBAJ",
+        "etag": "3bTPZKFACNw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/YIbCDwAAQBAJ",
+        "volumeInfo": {
+          "title": "The Astronaut's Cat",
+          "authors": [
+            "Tohby Riddle"
+          ],
+          "publisher": "Allen & Unwin",
+          "publishedDate": "2020-03-31",
+          "description": "The astronaut's cat is an inside cat. And she likes it like that. The astronaut's cat is an inside cat - on the Moon! But she dreams about the strange outside world - and the mysterious blue ball that rises into the ink-black sky . . . A wonderfully whimsical, funny and surprising story of a very unusual 'inside cat' - by one of Australia's finest picture-book creators. Perfect for readers who are intrigued or inspired by the landscapes of the Moon and the Earth - or fascinated by the inner life of cats.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781760873783"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1760873780"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 39,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Fiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.3.2.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=YIbCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=YIbCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=YIbCDwAAQBAJ&printsec=frontcover&dq=cat&hl=&cd=6&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=YIbCDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=YIbCDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 19.99,
+            "currencyCode": "AUD"
+          },
+          "retailPrice": {
+            "amount": 19.99,
+            "currencyCode": "AUD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=YIbCDwAAQBAJ&rdid=book-YIbCDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 19990000,
+                "currencyCode": "AUD"
+              },
+              "retailPrice": {
+                "amountInMicros": 19990000,
+                "currencyCode": "AUD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/The_Astronaut_s_Cat-sample-epub.acsm?id=YIbCDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/The_Astronaut_s_Cat-sample-pdf.acsm?id=YIbCDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=YIbCDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The astronaut&#39;s cat is an inside cat. And she likes it like that. The astronaut&#39;s cat is an inside cat - on the Moon! But she dreams about the strange outside world - and the mysterious blue ball that rises into the ink-black sky . . ."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "MuG2zQEACAAJ",
+        "etag": "T+CVINoauPo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MuG2zQEACAAJ",
+        "volumeInfo": {
+          "title": "The Cat",
+          "authors": [
+            "Emilia Will"
+          ],
+          "publishedDate": "2021-03-02",
+          "description": "A charming gift book, celebrating the cats in Tate's collection Following Tate's publication Love, this new selection of works showcases the most endearing, quirky, and amusing depictions of cats drawn from Tate's collection. Divided into key themes--\"Snap Cat,\" \"Cats on Laps,\" \"Fierce Felines,\" \"Scratchy Sketches,\" \"Painterly Paws,\" and \"Prints and Pawings\"--this little book considers how cats have been revered in culture and have influenced artists over the centuries. Works of art--including paintings, drawings, sculptures, illustrations, and installations--are introduced by a brief introduction text adding background detail or additional information about the art, artists, and their subjects. Featured artists include: Prunella Clough, John Craxton, Sunil Gupta, Édouard Manet, Bernard Leach, David Hockney, William Blake, Andy Warhol, and Alex Katz. Sometimes traditional, sometimes contemporary, often touching and occasionally telling, placed together these beautiful images create a fascinating and enlightening journey through the visual portrayal of cats in Western art.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1849767386"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781849767385"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 96,
+          "printType": "BOOK",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=MuG2zQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=MuG2zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=MuG2zQEACAAJ&dq=cat&hl=&cd=7&source=gbs_api",
+          "infoLink": "http://books.google.com.au/books?id=MuG2zQEACAAJ&dq=cat&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Cat.html?hl=&id=MuG2zQEACAAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=MuG2zQEACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Divided into key themes--&quot;Snap Cat,&quot; &quot;Cats on Laps,&quot; &quot;Fierce Felines,&quot; &quot;Scratchy Sketches,&quot; &quot;Painterly Paws,&quot; and &quot;Prints and Pawings&quot;--this little book considers how cats have been revered in culture and have influenced artists over the ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "R9zsAQAACAAJ",
+        "etag": "vLn59MzViNo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/R9zsAQAACAAJ",
+        "volumeInfo": {
+          "title": "Me and My Cat?",
+          "authors": [
+            "Satoshi Kitamura"
+          ],
+          "publishedDate": "2001-06-01",
+          "description": "Late one night an old lady in a pointed hat comes in through the bedroom window. She brandishes her broom, whispers some witchy words and leaves. Nicholas is surprised, but not as surprised as he is when he wakes up to find himself in the body of his cat and soon realises that a cat's life isn't just about lazing around in the sunshine.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "0099423073"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9780099423072"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 29,
+          "printType": "BOOK",
+          "categories": [
+            "Cats"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=R9zsAQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=R9zsAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=R9zsAQAACAAJ&dq=cat&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.com.au/books?id=R9zsAQAACAAJ&dq=cat&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Me_and_My_Cat.html?hl=&id=R9zsAQAACAAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=R9zsAQAACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Late one night an old lady in a pointed hat comes in through the bedroom window."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "O9Z-DwAAQBAJ",
+        "etag": "VXm7nW91n8Y",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/O9Z-DwAAQBAJ",
+        "volumeInfo": {
+          "title": "A Cat's Guide to Humans",
+          "subtitle": "From A to Z",
+          "authors": [
+            "George the Cat, owner of Celia Haddon"
+          ],
+          "publisher": "Hachette UK",
+          "publishedDate": "2019-09-19",
+          "description": "'Do you need a human in the first place? If you do, do not adopt a human on impulse. You may not get the right one for your lifestyle.' George the Cat is the feline world's favourite agony aunt. Now he brings us his irresistible, hilarious A-Z guide for fellow felines to help them navigate the human world, understand their sometimes weird and idiotic behaviour, and help turn human failings to feline advantages. Includes advice on how to move a sleeping human to the very edge of their bed, enjoy the use of their empty boxes before they're thrown out, and to get doors opened for you whether or not you have a private catflap. George also has a word of advice for humans: 'Don't let your cat get his paws on this book!' For fans of Secret Thoughts Cats Have About Humans and 100 Ways for A Cat to Train Its Human by Celia Haddon.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781529353013"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1529353017"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 201,
+          "printType": "BOOK",
+          "categories": [
+            "Pets"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.3.3.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=O9Z-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=O9Z-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=O9Z-DwAAQBAJ&printsec=frontcover&dq=cat&hl=&cd=9&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=O9Z-DwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=O9Z-DwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 12.99,
+            "currencyCode": "AUD"
+          },
+          "retailPrice": {
+            "amount": 12.99,
+            "currencyCode": "AUD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=O9Z-DwAAQBAJ&rdid=book-O9Z-DwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 12990000,
+                "currencyCode": "AUD"
+              },
+              "retailPrice": {
+                "amountInMicros": 12990000,
+                "currencyCode": "AUD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/A_Cat_s_Guide_to_Humans-sample-epub.acsm?id=O9Z-DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=O9Z-DwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "George also has a word of advice for humans: &#39;Don&#39;t let your cat get his paws on this book!&#39; For fans of Secret Thoughts Cats Have About Humans and 100 Ways for A Cat to Train Its Human by Celia Haddon."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "nQTQDQAAQBAJ",
+        "etag": "970/vu9yb44",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/nQTQDQAAQBAJ",
+        "volumeInfo": {
+          "title": "Cat Speak",
+          "subtitle": "Revealing Answers to the Strangest Cat Behaviours",
+          "authors": [
+            "Maureen Gail Webster"
+          ],
+          "publisher": "Raintree",
+          "publishedDate": "2017-03-09",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781474717212"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1474717217"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 33,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Nonfiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=nQTQDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=nQTQDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com.au/books?id=nQTQDQAAQBAJ&printsec=frontcover&dq=cat&hl=&cd=10&source=gbs_api",
+          "infoLink": "http://books.google.com.au/books?id=nQTQDQAAQBAJ&dq=cat&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Cat_Speak.html?hl=&id=nQTQDQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "AU",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "AU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.au/books/download/Cat_Speak-sample-pdf.acsm?id=nQTQDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=nQTQDQAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        }
+      }
+    ]
+  }
